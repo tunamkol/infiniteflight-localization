@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,79 +26,79 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,55 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LoginSubscriptionPage.ProCarouselTitle1" xml:space="preserve">
-    <value>ACCESS TO OUR ENTIRE FLEET</value>
+    <value>TÜM FİLOMUZA ERİṢİM</value>
     <comment>ACCESS TO OUR ENTIRE FLEET</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselText1" xml:space="preserve">
-    <value>Dozens of aircraft, hundreds of liveries, realistic flight models, and animated cockpits</value>
+    <value>Onlarca uçak, yüzlerce havayolu, gerçekçi̇ uçuş modelleri̇, ve animasyonlu kokpitler</value>
     <comment>Dozens of aircraft, hundreds of liveries, realistic flight models, and animated cockpits</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselTitle2" xml:space="preserve">
-    <value>DISCOVER THE WORLD</value>
+    <value>DÜNYAYI KEṢFET</value>
     <comment>DISCOVER THE WORLD</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselText2" xml:space="preserve">
-    <value>Over 20,000 airports worldwide, 400+ 3D airports and counting, 15m/px satellite terrain imagery, and more.</value>
+    <value>Dünya çapında 20,000'den fazla havaalanı, 90'dan fazla 3D havaalanı, 15m/px uydu yeryüzü görüntüleri̇ ve daha fazlası.</value>
     <comment>Over 20,000 airports worldwide, 90+ 3D airports and counting, 15m/px satelite terrain imagery, and more.</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselText3" xml:space="preserve">
-    <value>Fly with friends! Join thousands of other pilots for an immersive, global, multiplayer experience.</value>
+    <value>Arkadaşlarınla uç! Sürükleyici, küresel, çok oyunculu bir deneyim için binlerce diğer pilota katıl.</value>
     <comment>Fly with friends! Join thousands of other pilots for an immersive, global, multiplayer experience.</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselText4" xml:space="preserve">
-    <value>Experience trained, human air traffic controllers on our expert server or climb the ranks to be a controller yourself!</value>
+    <value>Uzman sunucumuzda eğitimli, insan hava trafik kontrolörlerini deneyimleyin veya kendiniz bir kontrolör olmak için rütbelerinizi yükseltin!</value>
     <comment>Experience trained, human air traffic controllers on our expert server or climb the ranks to be a controller yourself!</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselTitle3" xml:space="preserve">
-    <value>MULTIPLAYER</value>
+    <value>ÇOK OYUNCULU</value>
     <comment>MULTIPLAYER</comment>
   </data>
   <data name="LoginSubscriptionPage.ProCarouselTitle4" xml:space="preserve">
-    <value>HUMAN ATC</value>
+    <value>INSAN HAVA TRAFİK KONTROLÜ</value>
     <comment>HUMAN ATC</comment>
   </data>
   <data name="Global.Back" xml:space="preserve">
-    <value>BACK</value>
+    <value>GERİ</value>
     <comment>Back button text</comment>
   </data>
   <data name="Global.Ok" xml:space="preserve">
-    <value>OK</value>
+    <value>TAMAM</value>
     <comment>OK button text</comment>
   </data>
   <data name="IntroPage.ATC" xml:space="preserve">
-    <value>AIR TRAFFIC CONTROL</value>
+    <value>HAVA TRAFİK KONTROLÖRÜ</value>
     <comment>Air Traffic Control</comment>
   </data>
   <data name="IntroPage.FlyOnline" xml:space="preserve">
-    <value>FLY ONLINE</value>
+    <value>ÇEVRİMİÇİ UÇUN</value>
     <comment>Fly Online</comment>
   </data>
   <data name="IntroPage.FlySolo" xml:space="preserve">
-    <value>FLY SOLO</value>
+    <value>YALNIZ UÇUN</value>
     <comment>Fly Solo</comment>
   </data>
   <data name="IntroPage.Logbook" xml:space="preserve">
@@ -1983,10 +1983,10 @@
   </data>
   <data name="Logbook.Details" xml:space="preserve">
     <value>Details</value>
+    <comment/>
   </data>
   <data name="Settings.Controls.AltButtonCommandPrompt" xml:space="preserve">
-    <value>Press button on
-Keyboard to assign</value>
+    <value>Press button onKeyboard to assign</value>
     <comment>Press button on \nKeyboard to assign</comment>
   </data>
   <data name="Settings.Controls.Delete" xml:space="preserve">
@@ -1998,8 +1998,7 @@ Keyboard to assign</value>
     <comment>Move axis on controller to assign</comment>
   </data>
   <data name="Settings.Controls.PressButtonOnController" xml:space="preserve">
-    <value>Press button on 
-Controller/Keyboard to assign</value>
+    <value>Press button on Controller/Keyboard to assign</value>
     <comment>Press button on \nController/Keyboard to assign</comment>
   </data>
   <data name="Settings.Controls.PressButtonOrMoveAxis" xml:space="preserve">
@@ -2027,10 +2026,8 @@ Controller/Keyboard to assign</value>
     <comment>Approach Mode Disabled - Aircraft is overweight</comment>
   </data>
   <data name="SystemMessaging.ApproachMode.VSNotEnabled" xml:space="preserve">
-    <value>Approach Mode Disabled
-Vertical Speed Mode must be enabled when Approach Mode is active</value>
-    <comment>Approach Mode Disabled
-Vertical Speed Mode must be enabled when Approach Mode is active</comment>
+    <value>Approach Mode DisabledVertical Speed Mode must be enabled when Approach Mode is active</value>
+    <comment>Approach Mode DisabledVertical Speed Mode must be enabled when Approach Mode is active</comment>
   </data>
   <data name="SystemMessaging.ApproachMode.VSOutOfRange" xml:space="preserve">
     <value>Approach Mode Disabled - VS out of range</value>
@@ -2129,10 +2126,8 @@ Vertical Speed Mode must be enabled when Approach Mode is active</comment>
     <comment>Low Power Mode Enabled</comment>
   </data>
   <data name="SystemMessaging.OutOfRegion" xml:space="preserve">
-    <value>Infinite Flight Pro is required to fly outside of the default regions.
-Tap here for more information</value>
-    <comment>Infinite Flight Pro is required to fly outside of the default regions.
-Tap here for more information</comment>
+    <value>Infinite Flight Pro is required to fly outside of the default regions.Tap here for more information</value>
+    <comment>Infinite Flight Pro is required to fly outside of the default regions.Tap here for more information</comment>
   </data>
   <data name="SystemMessaging.Overspeed" xml:space="preserve">
     <value>Overspeeding! Reduce throttle/power to slow down below max aircraft speed</value>
@@ -2179,25 +2174,19 @@ Tap here for more information</comment>
     <comment>Simulation time scale cannot be changed for fighter jets.</comment>
   </data>
   <data name="SystemMessaging.Violations.AerobaticsWarning" xml:space="preserve">
-    <value>AEROBATICS WARNING
-Aerobatic Maneuvers prohibited near airports.</value>
+    <value>AEROBATICS WARNINGAerobatic Maneuvers prohibited near airports.</value>
     <comment>AEROBATICS WARNING\nAerobatic Maneuvers prohibited near airports.</comment>
   </data>
   <data name="SystemMessaging.Violations.RunwayWarning" xml:space="preserve">
-    <value>RUNWAY IDLE WARNING
-Staying on active runways for extended periods of time is prohibited.
-Exit the runway or take off to avoid receiving a violation</value>
+    <value>RUNWAY IDLE WARNINGStaying on active runways for extended periods of time is prohibited.Exit the runway or take off to avoid receiving a violation</value>
     <comment>RUNWAY IDLE WARNING\nStaying on active runways for extended periods of time is prohibited.\nExit the runway or take off to avoid receiving a violation</comment>
   </data>
   <data name="SystemMessaging.Violations.TaxiSpeedWarning" xml:space="preserve">
-    <value>TAXI SPEED WARNING
-Max ground speed while taxiing: 35kts.
-Slow down to avoid violations.</value>
+    <value>TAXI SPEED WARNINGMax ground speed while taxiing: 35kts.Slow down to avoid violations.</value>
     <comment>TAXI SPEED WARNING\nMax ground speed while taxiing: 35kts.\nSlow down to avoid violations.</comment>
   </data>
   <data name="SystemMessaging.VNAV.Climb" xml:space="preserve">
-    <value>VNAV unavailable during climb.
-This functionality is only available for descent.</value>
+    <value>VNAV unavailable during climb.This functionality is only available for descent.</value>
     <comment>VNAV unavailable during climb.\nThis functionality is only available for descent.</comment>
   </data>
   <data name="SystemMessaging.VNAV.Descending" xml:space="preserve">
@@ -2205,15 +2194,12 @@ This functionality is only available for descent.</value>
     <comment>VNAV Descending to {0} at {1:n0}ft</comment>
   </data>
   <data name="SystemMessaging.VNAV.NoFlightPlanAltitude" xml:space="preserve">
-    <value>VNAV Unavailable
-No altitude set for any waypoint in Flight Plan</value>
+    <value>VNAV UnavailableNo altitude set for any waypoint in Flight Plan</value>
     <comment>VNAV Unavailable\nNo altitude set for any waypoint in Flight Plan</comment>
   </data>
   <data name="SystemMessaging.VNAV.NoFlightPlanWaypoint" xml:space="preserve">
-    <value>VNAV Unavailable
-No waypoint in Flight Plan</value>
-    <comment>VNAV Unavailable
-No waypoint in Flight Plan</comment>
+    <value>VNAV UnavailableNo waypoint in Flight Plan</value>
+    <comment>VNAV UnavailableNo waypoint in Flight Plan</comment>
   </data>
   <data name="SystemMessaging.VNAV.TargetUpdated" xml:space="preserve">
     <value>VNAV Target updated to {0} ({2:#0.0}NM) @ {1:n0}ft</value>
@@ -2392,24 +2378,16 @@ No waypoint in Flight Plan</comment>
     <comment>Unspecified Reason</comment>
   </data>
   <data name="Violations.AerobaticManouvers.Message" xml:space="preserve">
-    <value>Aerobatic Maneuvers prohibited near airports.
-A level 1 violation has been issued.</value>
-    <comment>Aerobatic Maneuvers prohibited near airports.
-A level 1 violation has been issued.</comment>
+    <value>Aerobatic Maneuvers prohibited near airports.A level 1 violation has been issued.</value>
+    <comment>Aerobatic Maneuvers prohibited near airports.A level 1 violation has been issued.</comment>
   </data>
   <data name="Violations.AircraftIdle.Message" xml:space="preserve">
-    <value>Aircraft idle on active runway for too long
-A level 1 violation has been issued.</value>
-    <comment>Aircraft idle on active runway for too long
-A level 1 violation has been issued</comment>
+    <value>Aircraft idle on active runway for too longA level 1 violation has been issued.</value>
+    <comment>Aircraft idle on active runway for too longA level 1 violation has been issued</comment>
   </data>
   <data name="Violations.GroundSpeed.Message" xml:space="preserve">
-    <value>Exceeded max ground speed of 35kts.
-A level 1 violation has been issued.
-Slow down to avoid further violations.</value>
-    <comment>Exceeded max ground speed of 35kts.
-A level 1 violation has been issued.
-Slow down to avoid further violations.</comment>
+    <value>Exceeded max ground speed of 35kts.A level 1 violation has been issued.Slow down to avoid further violations.</value>
+    <comment>Exceeded max ground speed of 35kts.A level 1 violation has been issued.Slow down to avoid further violations.</comment>
   </data>
   <data name="ATCRatingPage.FrequencyCount" xml:space="preserve">
     <value>Frequencies Staffed</value>
@@ -2580,12 +2558,8 @@ Slow down to avoid further violations.</comment>
     <comment>You are not assigned to this airport</comment>
   </data>
   <data name="SceneryEditor.NoUploadPermissions" xml:space="preserve">
-    <value>You do not have permission to upload changes to this airport.
-
-Please ask to be assigned via the Scenery Editing forum first.</value>
-    <comment>You do not have permission to upload changes to this airport.
-
-Please ask to be assigned via the Scenery Editing forum first</comment>
+    <value>You do not have permission to upload changes to this airport.Please ask to be assigned via the Scenery Editing forum first.</value>
+    <comment>You do not have permission to upload changes to this airport.Please ask to be assigned via the Scenery Editing forum first</comment>
   </data>
   <data name="SystemMessaging.Jetbridges.InvalidDockingConditions" xml:space="preserve">
     <value>Set parking brake and turn off all engines to dock jet bridges</value>
@@ -2604,12 +2578,8 @@ Please ask to be assigned via the Scenery Editing forum first</comment>
     <comment>Contributors</comment>
   </data>
   <data name="SystemMessaging.Notams.EnteredTFR" xml:space="preserve">
-    <value>Entered an Active TFR at or near {0}
-{1}
-Check map for more information</value>
-    <comment>Entered an Active TFR at or near {ICAO}
-{Title}
-Check map for more information</comment>
+    <value>Entered an Active TFR at or near {0}{1}Check map for more information</value>
+    <comment>Entered an Active TFR at or near {ICAO}{Title}Check map for more information</comment>
   </data>
   <data name="UserAccountControl.Discord" xml:space="preserve">
     <value>Discord Account</value>
@@ -2649,9 +2619,11 @@ Check map for more information</comment>
   </data>
   <data name="Settings.General.ShowLegacyAircraft.Subtitle" xml:space="preserve">
     <value>Show legacy airplanes that don't reflect the latest evolutions (high quality virtual cockpits, instruments, etc...)</value>
+    <comment/>
   </data>
   <data name="Settings.General.ShowLegacyAircraft.Warning" xml:space="preserve">
     <value>Legacy aircraft are extras from older versions of Infinite Flight and are not of the same quality. Show them anyway?</value>
+    <comment/>
   </data>
   <data name="Settings.General.Legacy" xml:space="preserve">
     <value>LEGACY</value>
